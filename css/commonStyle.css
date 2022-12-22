@@ -64,8 +64,8 @@ section {
   /* padding-left: 3rem; */
 }
 .section .box .images {
-  width: 35rem;
-  height: 25.5rem;
+  max-width: 35rem;
+  max-height: 25.5rem;
   margin: 4rem 3rem;
   background: #222;
   border-radius: 1rem;
@@ -147,5 +147,14 @@ section {
 @media (max-width: 768px) {
   .bullet {
     margin: 2rem;
+  }
+}
+@media (max-width: 384px) {
+  .bullet {
+    margin: 2rem;
+  }
+  .section .box .images {
+    max-width: 24rem;
+    max-height: 17rem;
   }
 }
