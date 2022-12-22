@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Taraque</title>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img src="images/taraque.jpg" alt="" srcset="" />
+        <h3 class="name">Md. Hasan Taraque</h3>
+        <p class="post">Front end developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="Resume_Hasan_Taraque.pdf" download>
+              download CV <i class="fas fa-download"></i
+            ></a>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <h3>Hi there!</h3>
+      <h1>I'm <span>Md. Hasan Taraque</span></h1>
+      <p>
+        I am a web developer. I’m passionate about coding. I am confident that I
+        have the skills of HTML, CSS, JavaScript, React JS and experience needed
+        for the role, and I would be a valuable asset of a web developer team.
+        In addition to my knowledge base, I actively seek out new technologies
+        and stay up-to-date on industry trends and advancements.
+      </p>
+      <a href="#about"
+        ><button class="btn">About me<i class="fas fa-user"></i></button
+      ></a>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span>name:</span>Md. Hasan Taraque</h3>
+          <h3><span>qualification:</span>Bachelor of commerce</h3>
+          <h3><span>languages:</span>Bangla</h3>
+          <!-- <h3><span>:</span></h3> -->
+          <a href="Resume_Hasan_Taraque.pdf" download
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+        <div class="counter">
+          <div class="box">
+            <span>10+</span>
+            <h3>project completed</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- project section start -->
+
+    <section class="project" id="project">
+      <h1 class="heading"><span>My</span> projects</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="images">
+            <img src="images/nn-1.png" alt="" srcset="" />
+          </div>
+          <div class="para">
+            <h3>NEVER NEW <span>(A old vehicle e-commerce site)</span></h3>
+
+            <p>
+              Client side: https://github.com/mdhasantaraque/never-new-client
+            </p>
+            <p>
+              Server side: https://github.com/mdhasantaraque/never-new-server
+            </p>
+            <p>
+              Live site:
+              https://app.netlify.com/sites/never-new-taraque/overview
+            </p>
+
+            <a href="neverNew.html"><button class="btn">Details</button></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/ub-8.png" alt="" srcset="" />
+          </div>
+          <div class="para">
+            <h3>UBER BARBER<span>( A home service saloon)</span></h3>
+            <p>
+              Client side:https://github.com/mdhasantaraque/uber-barberclient
+            </p>
+            <p>
+              Server side: https://github.com/mdhasantaraque/uber-barberserver
+            </p>
+            <p>Live site: https://uber-barber.netlify.app</p>
+            <a href="uber.html"><button class="btn">Details</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="images">
+            <img src="images/tm-6.png" alt="" srcset="" />
+          </div>
+          <div class="para">
+            <h3>THE MARITIME<span>( A polytechnic provide courses)</span></h3>
+
+            <p>
+              Client side: https://github.com/mdhasantaraque/the-maritimeclient
+            </p>
+            <p>
+              Server side: https://github.com/mdhasantaraque/themaritime- server
+            </p>
+            <p>Live site: https://the-maritime-taraque.netlify.app</p>
+            <a href="maritime.html"><button class="btn">Details</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section end -->
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>My</span> Contact</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Contact info</h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i>mtaraque32@gmil.com</h3>
+            <h3><i class="fas fa-phone"></i>+88 01616 246775</h3>
+            <h3><i class="fas fa-map-marker"></i>Chattogram, Bangladesh</h3>
+          </div>
+          <form
+            action="https://formsubmit.co/0f1b3ab15650e1be371c984690f2351f"
+            method="POST"
+          >
+            <input
+              type="text"
+              placeholder="name"
+              name="name"
+              class="box"
+              required
+            />
+            <input
+              type="email"
+              placeholder="email"
+              name="email"
+              class="box"
+              required
+            />
+            <input
+              type="text"
+              placeholder="project"
+              class="box"
+              name="subject"
+              required
+            />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              class="box message"
+              placeholder="message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">
+              Send <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- java files -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
